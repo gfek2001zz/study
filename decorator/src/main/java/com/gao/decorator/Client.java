@@ -8,8 +8,8 @@ public class Client {
         ConcreteDecoratorB d2 = new ConcreteDecoratorB();
 
 
-        d1.setCompoent(c);
-        d2.setCompoent(d1);
+        d1.setComponent(c);
+        d2.setComponent(d1);
 
         d2.operation();
     }
