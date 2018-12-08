@@ -4,7 +4,7 @@ public class Decorator extends Component {
 
     private Component component;
 
-    public void setCompoent(Component component) {
+    public void setComponent(Component component) {
         this.component = component;
     }
 
